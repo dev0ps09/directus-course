@@ -1,3 +1,5 @@
 tasks:
-  - command: |
+  - init: |
+      yarn start
+    command: |
       npx directus start
